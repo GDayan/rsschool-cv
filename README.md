@@ -1,3 +1,1 @@
-# Markdown & Git
-
-[My CV](https://GDayan.github.io/rsschool-cv/cv)
+[CV Web Page](https://GDayan.github.io/rsschool-cv/)
