@@ -1,1 +1,2 @@
-[CV Web Page](https://GDayan.github.io/rsschool-cv/)
+https://GDayan.github.io/rsschool-cv/cv
+https://GDayan.github.io/rsschool-cv/

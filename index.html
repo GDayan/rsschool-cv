@@ -1,10 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV - Dayan Gutlyev</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV of Dayan Gutlyev">
+    <title>CV - Dayan Gutlyev</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+<header class="header">
+    <div class="container">
+        <h1>Dayan Gutlyev</h1>
+        <img src="assets/my-photo.jpg" alt="Dayan Gutlyev" class="avatar">
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code Example</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#english">English</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<main class="main">
+    <div class="container">
+
+        <section id="contacts">
+            <h2>Contact Information</h2>
+
+            <ul>
+                <li>
+                    GitHub:
+                    <a href="https://github.com/GDayan">GDayan</a>
+                </li>
+                <li>Location: Belarus</li>
+                <li>
+                    Email:
+                    <a href="mailto:daykanot@gmail.com">daykanot@gmail.com</a>
+                </li>
+            </ul>
+        </section>
+
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a Java Developer and a postgraduate student at Belarusian State University
+                with a strong mathematical background. I have experience in teaching programming
+                and mathematics, as well as developing educational and personal software projects.
+            </p>
+
+            <p>
+                My main professional goal is to become a strong backend developer and deepen
+                my knowledge of Java, Spring, databases, distributed systems, and software
+                architecture.
+            </p>
+
+            <p>
+                I am interested in developing reliable and maintainable applications and
+                continuously improving my programming skills. I am responsible, analytical,
+                and comfortable working both independently and as part of a team.
+            </p>
+        </section>
+
+
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <h3>Programming Languages</h3>
+
+            <ul>
+                <li>Java</li>
+                <li>C++</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>HTML / CSS</li>
+            </ul>
+
+            <h3>Frameworks and Technologies</h3>
+
+            <ul>
+                <li>Spring Boot</li>
+                <li>Spring MVC</li>
+                <li>Spring WebFlux</li>
+                <li>Spring Data</li>
+                <li>JPA / Hibernate</li>
+                <li>React</li>
+                <li>Apache Kafka</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+            </ul>
+
+            <h3>Testing and Development Tools</h3>
+
+            <ul>
+                <li>Git</li>
+                <li>Maven</li>
+                <li>JUnit</li>
+                <li>TestNG</li>
+                <li>Cucumber</li>
+                <li>Selenium</li>
+                <li>Allure</li>
+                <li>IntelliJ IDEA</li>
+                <li>VS Code</li>
+            </ul>
+
+            <h3>Other</h3>
+
+            <ul>
+                <li>REST API</li>
+                <li>Microservices</li>
+                <li>PostgreSQL</li>
+                <li>Object-Oriented Programming</li>
+                <li>Algorithms and Data Structures</li>
+                <li>GitHub</li>
+                <li>CI/CD basics</li>
+            </ul>
+        </section>
+        
+        <section id="code">
+            <h2>Code Example</h2>
+
+            <p>Binary search implementation in Java:</p>
+
+            <pre><code>public static int binarySearch(int[] array, int target) {
+    int left = 0;
+    int right = array.length - 1;
+
+    while (left &lt;= right) {
+        int middle = left + (right - left) / 2;
+
+        if (array[middle] == target) {
+            return middle;
+        }
+
+        if (array[middle] &lt; target) {
+            left = middle + 1;
+        } else {
+            right = middle - 1;
+        }
+    }
+
+    return -1;
+}</code></pre>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <article>
+                <h3>Belarusian State University</h3>
+
+                <p>
+                    Assistant / Practice Teacher, Faculty of Mechanics and Mathematics.
+                </p>
+
+                <p>
+                    <strong>September 2024 — Present</strong>
+                </p>
+
+                <ul>
+                    <li>Conduct practical classes in Java and C++.</li>
+                    <li>Help students with programming assignments.</li>
+                    <li>Supervise course projects and practical training.</li>
+                    <li>Participate in course work defense commissions.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Private Tutor</h3>
+
+                <p>
+                    <strong>5+ years</strong>
+                </p>
+
+                <ul>
+                    <li>Teach mathematics for students in grades 5–11.</li>
+                    <li>Teach physics for students in grades 7–9.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="projects">
+    <h2>Projects</h2>
+
+    <article>
+        <h3>Financial Report</h3>
+        <p>
+            React application for creating and managing financial reports.
+        </p>
+    </article>
+
+    <article>
+        <h3>Telegram Music Search Bot</h3>
+        <p>
+            Telegram bot for searching and finding music tracks.
+        </p>
+    </article>
+
+    <article>
+        <h3>QA Automation Projects</h3>
+        <p>
+            Java-based automated testing projects using Selenium, Cucumber,
+            Aquality Framework, Allure, and Jenkins.
+        </p>
+    </article>
+</section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <article>
+                <h3>Belarusian State University</h3>
+
+                <p>
+                    Mechanics and Mathematical Modeling,
+                    Faculty of Mechanics and Mathematics.
+                </p>
+
+                <p>
+                    GPA: 8.4 / 10.0
+                </p>
+            </article>
+
+            <article>
+                <h3>Belarusian State University — Master's Degree</h3>
+
+                <p>
+                    Intelligent Systems,
+                    Faculty of Applied Mathematics and Computer Science.
+                </p>
+
+                <p>
+                    Master's thesis: Human Activity Recognition using smartphone
+                    accelerometer data.
+                </p>
+            </article>
+
+            <article>
+                <h3>Postgraduate Studies</h3>
+
+                <p>
+                    Belarusian State University,
+                    Faculty of Mechanics and Mathematics.
+                </p>
+            </article>
+
+            <article>
+                <h3>EPAM Java Web Development Course</h3>
+
+                <p>
+                    Java Web Development, 2022.
+                </p>
+            </article>
+
+            <article>
+                <h3>RS School</h3>
+
+                <p>
+                    JavaScript / Frontend Development.
+                </p>
+            </article>
+        </section>
+
+
+        <section id="english">
+            <h2>English</h2>
+
+            <p>
+                A2–B1. I can read technical documentation and communicate on
+                everyday and professional topics.
+            </p>
+        </section>
+
+    </div>
+</main>
+
+
+<footer class="footer">
+    <div class="container">
+
+        <p>
+            <a href="https://github.com/GDayan">GitHub</a>
+        </p>
+
+        <p>© 2026 Dayan Gutlyev</p>
+
+        <p>
+            <a href="https://rs.school">
+              <img src="assets/rs-school-logo.jpg" alt="RS School logo" class="rs-logo">
+            </a>
+        </p>
+
+    </div>
+</footer>
+
 </body>
 </html>
